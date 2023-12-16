@@ -16,3 +16,5 @@ D:\.NET_WPF\First_WpfApp\First_WpfApp\obj\Debug\First_WpfApp.exe
 D:\.NET_WPF\First_WpfApp\First_WpfApp\obj\Debug\First_WpfApp.pdb
 D:\.NET_WPF\First_WpfApp\First_WpfApp\obj\Debug\Window1.g.cs
 D:\.NET_WPF\First_WpfApp\First_WpfApp\obj\Debug\Window1.baml
+D:\.NET_WPF\First_WpfApp\First_WpfApp\obj\Debug\Resource.g.cs
+D:\.NET_WPF\First_WpfApp\First_WpfApp\obj\Debug\Resource.baml

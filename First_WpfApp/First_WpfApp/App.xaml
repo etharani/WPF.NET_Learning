@@ -2,8 +2,10 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:First_WpfApp"
-             StartupUri="Window1.xaml">
+             StartupUri="Resource.xaml">
     <Application.Resources>
-         
+        <!-- it using to all application
+        <SolidColorBrush Color="LightSlateGray" x:Key="ColorBrush"/>
+        -->
     </Application.Resources>
 </Application>

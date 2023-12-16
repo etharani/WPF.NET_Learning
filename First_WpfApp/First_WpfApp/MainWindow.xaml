@@ -31,6 +31,11 @@
             <Rectangle Fill="DeepSkyBlue" DockPanel.Dock="Left" Height="20" Width="20" Margin="5" ></Rectangle>
             <Rectangle Fill="OrangeRed" DockPanel.Dock="Left" Height="20" Width="20" Margin="5" ></Rectangle>
         </DockPanel>
+        
+        <!--Canvas-->
+        <Canvas>
+            <Rectangle Fill="Black" Height="30" Width="30" Canvas.Bottom="200" Canvas.Top="200" Canvas.Left=" 600" Canvas.Right="200"/>
+        </Canvas>
 
     </Grid>
 </Window>
