@@ -7,15 +7,30 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+
+        <!--Stack Panel-->
         <StackPanel Background="LightGray">
             <Rectangle Fill="CornflowerBlue" Height="50" ></Rectangle>
             <Rectangle Fill="CornflowerBlue" Height="50" Margin="20"></Rectangle>
         </StackPanel>
+
+        <!--Wrap Panel-->
         <WrapPanel>
-            <Rectangle Fill="AntiqueWhite" Height="50" Width="20" ></Rectangle>
-            <Rectangle Fill="AntiqueWhite" Height="50" Width="20" Margin="10"></Rectangle>
+            <Rectangle Fill="AntiqueWhite" Height="100" Width="20" ></Rectangle>
+            <Rectangle Fill="AntiqueWhite" Height="100" Width="20" Margin="50"></Rectangle>
         </WrapPanel>
 
-        <Button Name="btnclick" Height="50" Width="200" Background="AliceBlue" Content="Click Me" Click="btnclick_Click"> </Button>
+        <!--button-->
+        <Button Name="btnclick" Height="50" Width="200" Background="AliceBlue" Content="Click Me" FontSize="25" HorizontalAlignment="Center" Click="btnclick_Click" Margin="0,289,0,95"/>
+
+        <!--Dock Panel-->
+        <DockPanel>
+            <Rectangle Fill="SeaGreen" DockPanel.Dock="Bottom" Height="20" Width="20" Margin="5" ></Rectangle>
+            <Rectangle Fill="Pink" DockPanel.Dock="Top" Height="20" Width="20" Margin="5" ></Rectangle>
+            <Rectangle Fill="LightYellow" DockPanel.Dock="Right" Height="20" Width="20" Margin="5" ></Rectangle>
+            <Rectangle Fill="DeepSkyBlue" DockPanel.Dock="Left" Height="20" Width="20" Margin="5" ></Rectangle>
+            <Rectangle Fill="OrangeRed" DockPanel.Dock="Left" Height="20" Width="20" Margin="5" ></Rectangle>
+        </DockPanel>
+
     </Grid>
 </Window>
