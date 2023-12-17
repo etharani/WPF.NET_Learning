@@ -1,0 +1,36 @@
+﻿<Window x:Class="First_WpfApp.DataBinding"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:First_WpfApp"
+        mc:Ignorable="d"
+        Title="DataBinding" Height="450" Width="800">
+    <Grid>
+        <!--Data binding - communication between source and target-->
+        <!-- default type = two way-->
+        <StackPanel VerticalAlignment="Center">
+            <Label Content="Soure1" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <Slider Name="slider" Minimum="0" Maximum="100"/>
+            <Label Content="Target1" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBox x:Name="txtbox" Height="60" Width="200" FontSize="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Background="AliceBlue" Text="{Binding ElementName=slider,Path=Value}"  />
+         
+            
+            <!-- one time method-->
+            <!--
+            <Label Content="Soure2" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <Slider Name="slider" Minimum="0" Maximum="100" Value="50"/>
+            <Label Content="Target2" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBox x:Name="txtbox" Height="60" Width="200" FontSize="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Background="AliceBlue" Text="{Binding ElementName=slider,Path=Value, Mode=OneTime}"  />
+             -->
+            <!-- one way to source method-->
+            <!--
+            <Label Content="Soure3" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <Slider Name="slider" Minimum="0" Maximum="100"/>
+            <Label Content="Target3" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <TextBox x:Name="txtbox" Height="60" Width="200" FontSize="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Background="AliceBlue" Text="{Binding ElementName=slider,Path=Value, Mode=OneWayToSource}"  />
+            -->
+        </StackPanel>
+      
+    </Grid>
+</Window>

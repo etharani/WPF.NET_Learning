@@ -1,0 +1,72 @@
+﻿<Window x:Class="First_WpfApp.Calculator"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:First_WpfApp"
+        mc:Ignorable="d"
+        Title="Calculator" Height="450" Width="800">
+    <Window.Resources>
+        <Style x:Key="lablestyle" TargetType="Label">
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="Margin" Value="10"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Width" Value="250"/>
+            <Setter Property="Margin" Value="15"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Width" Value="50"/>
+            <Setter Property="Margin" Value="15"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Label Content="Calculator" Grid.Row="0"  VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="50" FontWeight="ExtraBlack" Background="Lavender" />
+        <StackPanel VerticalAlignment="Center"  HorizontalAlignment="Left">
+            <Image Source="https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/512/Calculator_512.png" Width="400" Height="80" Margin="15" />
+        </StackPanel>
+        <StackPanel Grid.Row="1"  Orientation="Horizontal"  HorizontalAlignment="Center">
+            <Label Content="Input value 1 :" Style="{StaticResource lablestyle}" />
+            <TextBox  />
+        </StackPanel>
+        <StackPanel Grid.Row="2"  Orientation="Horizontal" HorizontalAlignment="Center">
+            <Label Content="Input value 2 :" Style="{StaticResource lablestyle}" />
+            <TextBox  />
+        </StackPanel>
+        <StackPanel Grid.Row="3"  Orientation="Horizontal"  HorizontalAlignment="Center">
+            <Label Content="Output value :" Style="{StaticResource lablestyle}" />
+            <TextBox  />
+        </StackPanel>
+        <StackPanel Grid.Row="4"  Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="+"/>
+            <Button Content="-"/>
+            <Button Content="*"/>
+            <Button Content="/"/>
+        </StackPanel>
+        <Label Content="Thank You" Grid.Row="5" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="10" FontWeight="Medium" Background="Lavender"/>
+       
+
+    </Grid>
+</Window>

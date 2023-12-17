@@ -18,3 +18,9 @@ D:\.NET_WPF\First_WpfApp\First_WpfApp\obj\Debug\Window1.g.cs
 D:\.NET_WPF\First_WpfApp\First_WpfApp\obj\Debug\Window1.baml
 D:\.NET_WPF\First_WpfApp\First_WpfApp\obj\Debug\Resource.g.cs
 D:\.NET_WPF\First_WpfApp\First_WpfApp\obj\Debug\Resource.baml
+D:\.NET_WPF\First_WpfApp\First_WpfApp\obj\Debug\DataBinding.g.cs
+D:\.NET_WPF\First_WpfApp\First_WpfApp\obj\Debug\DataBinding.baml
+D:\.NET_WPF\First_WpfApp\First_WpfApp\obj\Debug\Style.g.cs
+D:\.NET_WPF\First_WpfApp\First_WpfApp\obj\Debug\Style.baml
+D:\.NET_WPF\First_WpfApp\First_WpfApp\obj\Debug\Calculator.g.cs
+D:\.NET_WPF\First_WpfApp\First_WpfApp\obj\Debug\Calculator.baml

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\.NET_WPF\First_WpfApp\First_WpfApp\App.xaml
-3-337151230
+6-656782244
 
-7-1781659044
+10-109787530
 13-1310406943
-MainWindow.xaml;Resource.xaml;Window1.xaml;
+Calculator.xaml;DataBinding.xaml;MainWindow.xaml;Resource.xaml;Style.xaml;Window1.xaml;
 
 False
 
