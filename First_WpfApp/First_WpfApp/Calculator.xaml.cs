@@ -26,6 +26,20 @@ namespace First_WpfApp
 
         private void sumbtn_Click(object sender, RoutedEventArgs e)
         {
+            if (string.IsNullOrEmpty(value1.Text))
+            {
+                MessageBox.Show("Please enter Number1", "Information");
+                value1.Focus();
+                return;
+            }
+
+            if (string.IsNullOrEmpty(value2.Text))
+            {
+                MessageBox.Show("Please enter Number2", "Information");
+                value2.Focus();
+                return;
+            }
+
             double n1;
             double n2;
             MessageBox.Show(double.TryParse(value1.Text, out n1).ToString());
@@ -45,6 +59,21 @@ namespace First_WpfApp
 
         private void multibtn_Click(object sender, RoutedEventArgs e)
         {
+
+            if (string.IsNullOrEmpty(value1.Text))
+            {
+                MessageBox.Show("Please enter Number1", "Information");
+                value1.Focus();
+                return;
+            }
+
+            if (string.IsNullOrEmpty(value2.Text))
+            {
+                MessageBox.Show("Please enter Number2", "Information");
+                value2.Focus();
+                return;
+            }
+
             double n1;
             double n2;
             MessageBox.Show(double.TryParse(value1.Text, out n1).ToString());
@@ -65,6 +94,19 @@ namespace First_WpfApp
 
         private void divbtn_Click(object sender, RoutedEventArgs e)
         {
+            if (string.IsNullOrEmpty(value1.Text))
+            {
+                MessageBox.Show("Please enter Number1", "Information");
+                value1.Focus();
+                return;
+            }
+
+            if (string.IsNullOrEmpty(value2.Text))
+            {
+                MessageBox.Show("Please enter Number2", "Information");
+                value2.Focus();
+                return;
+            }
             double n1;
             double n2;
             MessageBox.Show(double.TryParse(value1.Text, out n1).ToString());
@@ -85,6 +127,20 @@ namespace First_WpfApp
 
         private void subbtn_Click(object sender, RoutedEventArgs e)
         {
+            if (string.IsNullOrEmpty(value1.Text))
+            {
+                MessageBox.Show("Please enter Number1", "Information");
+                value1.Focus();
+                return;
+            }
+
+            if (string.IsNullOrEmpty(value2.Text))
+            {
+                MessageBox.Show("Please enter Number2", "Information");
+                value2.Focus();
+                return;
+            }
+
             double n1;
             double n2;
             MessageBox.Show(double.TryParse(value1.Text, out n1).ToString());
