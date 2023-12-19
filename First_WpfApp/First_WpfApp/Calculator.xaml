@@ -45,25 +45,25 @@
 
         <Label Content="Calculator" Grid.Row="0"  VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="50" FontWeight="ExtraBlack" Background="Lavender" />
         <StackPanel VerticalAlignment="Center"  HorizontalAlignment="Left">
-            <Image Source="https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/512/Calculator_512.png" Width="100" Height="80" Margin="15" />
+            <Image Source="https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/512/Calculator_512.png" Width="80" Height="80" Margin="10"/>
         </StackPanel>
         <StackPanel Grid.Row="1"  Orientation="Horizontal"  HorizontalAlignment="Center">
             <Label Content="Input value 1 :" Style="{StaticResource lablestyle}" />
-            <TextBox  />
+            <TextBox Name="value1" />
         </StackPanel>
         <StackPanel Grid.Row="2"  Orientation="Horizontal" HorizontalAlignment="Center">
             <Label Content="Input value 2 :" Style="{StaticResource lablestyle}" />
-            <TextBox  />
+            <TextBox Name="value2" />
         </StackPanel>
         <StackPanel Grid.Row="3"  Orientation="Horizontal"  HorizontalAlignment="Center">
             <Label Content="Output value :" Style="{StaticResource lablestyle}" />
-            <TextBox  />
+            <TextBox Name="output" />
         </StackPanel>
         <StackPanel Grid.Row="4"  Orientation="Horizontal" HorizontalAlignment="Center">
-            <Button Content="+"/>
-            <Button Content="-"/>
-            <Button Content="*"/>
-            <Button Content="/"/>
+            <Button Name="sumbtn" Content="+" Click="sumbtn_Click"/>
+            <Button Name="subbtn" Content="-" Click="subbtn_Click"/>
+            <Button Name="multibtn" Content="*" Click="multibtn_Click"/>
+            <Button Name="divbtn" Content="/" Click="divbtn_Click"/>
         </StackPanel>
         <Label Content="Thank You" Grid.Row="5" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="10" FontWeight="Medium" Background="Lavender"/>
        

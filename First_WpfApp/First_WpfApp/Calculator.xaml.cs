@@ -23,5 +23,85 @@ namespace First_WpfApp
         {
             InitializeComponent();
         }
+
+        private void sumbtn_Click(object sender, RoutedEventArgs e)
+        {
+            double n1;
+            double n2;
+            MessageBox.Show(double.TryParse(value1.Text, out n1).ToString());
+
+
+            if (!double.TryParse(value1.Text, out n1))
+            {
+                MessageBox.Show("Please enter current Number1", "Information");
+            }
+            MessageBox.Show(double.TryParse(value2.Text, out n2).ToString());
+            if (!double.TryParse(value2.Text, out n2))
+            {
+                MessageBox.Show("Please enter current Number2", "Information");
+            }
+            output.Text = (n1 + n2).ToString();
+        }
+
+        private void multibtn_Click(object sender, RoutedEventArgs e)
+        {
+            double n1;
+            double n2;
+            MessageBox.Show(double.TryParse(value1.Text, out n1).ToString());
+
+
+            if (!double.TryParse(value1.Text, out n1))
+            {
+                MessageBox.Show("Please enter current Number1", "Information");
+            }
+            MessageBox.Show(double.TryParse(value2.Text, out n2).ToString());
+            if (!double.TryParse(value2.Text, out n2))
+            {
+                MessageBox.Show("Please enter current Number2", "Information");
+            }
+            output.Text = (n1 * n2).ToString();
+
+        }
+
+        private void divbtn_Click(object sender, RoutedEventArgs e)
+        {
+            double n1;
+            double n2;
+            MessageBox.Show(double.TryParse(value1.Text, out n1).ToString());
+
+
+            if (!double.TryParse(value1.Text, out n1))
+            {
+                MessageBox.Show("Please enter current Number1", "Information");
+            }
+            MessageBox.Show(double.TryParse(value2.Text, out n2).ToString());
+            if (!double.TryParse(value2.Text, out n2))
+            {
+                MessageBox.Show("Please enter current Number2", "Information");
+            }
+            output.Text = (n1 / n2).ToString();
+
+        }
+
+        private void subbtn_Click(object sender, RoutedEventArgs e)
+        {
+            double n1;
+            double n2;
+            MessageBox.Show(double.TryParse(value1.Text, out n1).ToString());
+
+
+            if (!double.TryParse(value1.Text, out n1))
+            {
+                MessageBox.Show("Please enter current Number1", "Information");
+            }
+            MessageBox.Show(double.TryParse(value2.Text, out n2).ToString());
+            if (!double.TryParse(value2.Text, out n2))
+            {
+                MessageBox.Show("Please enter current Number2", "Information");
+            }
+            output.Text = (n1 - n2).ToString();
+        }
+
+    
     }
 }
