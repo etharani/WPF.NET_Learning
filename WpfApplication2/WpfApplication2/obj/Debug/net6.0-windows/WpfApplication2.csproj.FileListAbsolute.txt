@@ -21,3 +21,7 @@ D:\.NET_WPF\WpfApplication2\WpfApplication2\obj\Debug\net6.0-windows\WpfApplicat
 D:\.NET_WPF\WpfApplication2\WpfApplication2\obj\Debug\net6.0-windows\WpfApplication2.genruntimeconfig.cache
 D:\.NET_WPF\WpfApplication2\WpfApplication2\obj\Debug\net6.0-windows\Layout.g.cs
 D:\.NET_WPF\WpfApplication2\WpfApplication2\obj\Debug\net6.0-windows\Layout.baml
+D:\.NET_WPF\WpfApplication2\WpfApplication2\obj\Debug\net6.0-windows\Usercontrol.g.cs
+D:\.NET_WPF\WpfApplication2\WpfApplication2\obj\Debug\net6.0-windows\Usercontrol.baml
+D:\.NET_WPF\WpfApplication2\WpfApplication2\obj\Debug\net6.0-windows\View\UserControls\UserControl1.g.cs
+D:\.NET_WPF\WpfApplication2\WpfApplication2\obj\Debug\net6.0-windows\View\UserControls\UserControl1.baml
