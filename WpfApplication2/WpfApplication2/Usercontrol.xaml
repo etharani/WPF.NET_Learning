@@ -5,13 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication2"
         xmlns:UserControls="clr-namespace:WpfApplication2.View.UserControls"
+        xmlns:textcontrol="clr-namespace:WpfApplication2.View.UserControls"
         mc:Ignorable="d"
         Title="Usercontrol" Height="450" Width="800">
     <Grid>
         <!-- Adding  to view - usercintrols- usercontorl1.xaml  -->
         <Grid.RowDefinitions>
             <RowDefinition Height="70"/>
-            <RowDefinition Height="20"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
         <UserControls:UserControl1/>
         <!--
@@ -46,5 +48,15 @@
             </Grid>
         </Grid>
         -->
+        <Grid Grid.Row="2" Width="250" >
+        <TextBox Name="txtinput" VerticalAlignment="Center" FontSize="16" FontWeight="Light"/>
+        <TextBlock Name="txtblock" Text="Hello here" FontSize="16" FontWeight="Light"
+                   Foreground="DarkGray" VerticalAlignment="Center" Margin="5,0,0,0"
+                 />
+        <!-- Panel.ZIndex="-1"-->
+        <Button Name="btn" Width="30" HorizontalAlignment="Right" Content="X" Background="Transparent"
+                Foreground="LightGray" BorderThickness="0"/>
+
+        </Grid>
     </Grid>
 </Window>

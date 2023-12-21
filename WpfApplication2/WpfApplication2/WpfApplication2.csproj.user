@@ -13,6 +13,9 @@
     <Compile Update="Usercontrol.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\UserControls\Textboxcontrol.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\UserControls\UserControl1.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -25,6 +28,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Usercontrol.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\UserControls\Textboxcontrol.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\UserControls\UserControl1.xaml">
