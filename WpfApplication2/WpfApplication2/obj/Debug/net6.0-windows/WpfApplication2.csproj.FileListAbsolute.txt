@@ -28,3 +28,5 @@ D:\.NET_WPF\WpfApplication2\WpfApplication2\obj\Debug\net6.0-windows\View\UserCo
 D:\.NET_WPF\WpfApplication2\WpfApplication2\obj\Debug\net6.0-windows\View\UserControls\Textboxcontrol.g.cs
 D:\.NET_WPF\WpfApplication2\WpfApplication2\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
 D:\.NET_WPF\WpfApplication2\WpfApplication2\obj\Debug\net6.0-windows\View\UserControls\Textboxcontrol.baml
+D:\.NET_WPF\WpfApplication2\WpfApplication2\obj\Debug\net6.0-windows\Windows.g.cs
+D:\.NET_WPF\WpfApplication2\WpfApplication2\obj\Debug\net6.0-windows\Windows.baml

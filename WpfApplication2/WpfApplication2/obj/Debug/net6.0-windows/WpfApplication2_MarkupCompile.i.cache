@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\.NET_WPF\WpfApplication2\WpfApplication2\App.xaml
-51028617786
+6835576300
 
-9-192004137
-1941142463650
-Layout.xaml;MainWindow.xaml;Usercontrol.xaml;View\UserControls\Textboxcontrol.xaml;View\UserControls\UserControl1.xaml;
+101958403705
+203-1258661629
+Layout.xaml;MainWindow.xaml;Usercontrol.xaml;View\UserControls\Textboxcontrol.xaml;View\UserControls\UserControl1.xaml;Windows.xaml;
 
-True
+False
 
