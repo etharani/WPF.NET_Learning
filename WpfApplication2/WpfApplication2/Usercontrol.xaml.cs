@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -36,6 +37,34 @@ namespace WpfApplication2
             {
                 textbox.Text = "False";
             }
+        }
+
+        private void btnfile_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog file = new OpenFileDialog();
+            //  file.ShowDialog();
+            //filter
+              file.Filter = "C# Soure file | *.cs";
+            //InitialDirectory
+            //  file.InitialDirectory = "c:\\";
+            //tittle
+            file.Title = "C# CS files";
+            //Multiselection to files
+            file.Multiselect = true;
+          bool? success = file.ShowDialog();
+            if(success == true)
+            {
+                //method 1
+                //   String path= file.FileName;
+                //     txtfile.Text = path;
+                // multi files open to use for  String path= file.FileNames; (S)
+                //method 2
+
+                String safe = file.SafeFileName;
+                txtfile.Text = safe;
+
+            }
+            else { }
         }
     }
 }

@@ -7,7 +7,7 @@
         xmlns:UserControls="clr-namespace:WpfApplication2.View.UserControls"
         xmlns:textcontrol="clr-namespace:WpfApplication2.View.UserControls"
         mc:Ignorable="d"
-        Title="Usercontrol" Height="450" Width="800">
+        Title="Usercontrol" Height="500" Width="800">
     <Grid>
         <!-- Adding  to view - usercintrols- usercontorl1.xaml  -->
         <Grid.RowDefinitions>
@@ -15,7 +15,8 @@
             <RowDefinition Height="50"/>
             <RowDefinition Height="50"/>
             <RowDefinition Height="150"/>
-           
+            <RowDefinition Height="150"/>
+
         </Grid.RowDefinitions>
         <UserControls:UserControl1/>
         <!--
@@ -62,7 +63,11 @@
 
         <Grid Grid.Row="3">
                 <Button Name="btnmessagebox" Width="150" Height="30" Content="Go to Message Box" Click="btnmessagebox_Click"/>
-            <TextBox Name="textbox" VerticalAlignment="Bottom" Width="100" Height="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <TextBlock Name="textbox" VerticalAlignment="Bottom" Width="100" Height="30" />
         </Grid>
+        <Grid Grid.Row="4">
+            <Button Name="btnfile" Width="150" Height="30" Content="Open file dialog" Click="btnfile_Click" VerticalAlignment="Top"/>
+            <TextBlock Name="txtfile" VerticalAlignment="Center" Width="Auto" Height="30" HorizontalAlignment="Center" />
         </Grid>
+    </Grid>
 </Window>
