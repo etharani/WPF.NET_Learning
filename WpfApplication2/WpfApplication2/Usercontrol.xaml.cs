@@ -23,5 +23,19 @@ namespace WpfApplication2
         {
             InitializeComponent();
         }
+
+        private void btnmessagebox_Click(object sender, RoutedEventArgs e)
+        {
+            //    MessageBox.Show("Hi welcome to my page!","Welcome",MessageBoxButton.OK,MessageBoxImage.Information);
+            MessageBoxResult result= MessageBox.Show("Hi welcome to my page!", "Welcome", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            if(result == MessageBoxResult.Yes)
+            {
+                textbox.Text = "True";
+            }
+            else
+            {
+                textbox.Text = "False";
+            }
+        }
     }
 }

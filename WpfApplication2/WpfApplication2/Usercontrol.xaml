@@ -14,6 +14,8 @@
             <RowDefinition Height="70"/>
             <RowDefinition Height="50"/>
             <RowDefinition Height="50"/>
+            <RowDefinition Height="150"/>
+           
         </Grid.RowDefinitions>
         <UserControls:UserControl1/>
         <!--
@@ -56,7 +58,11 @@
         <!-- Panel.ZIndex="-1"-->
         <Button Name="btn" Width="30" HorizontalAlignment="Right" Content="X" Background="Transparent"
                 Foreground="LightGray" BorderThickness="0"/>
-
         </Grid>
-    </Grid>
+
+        <Grid Grid.Row="3">
+                <Button Name="btnmessagebox" Width="150" Height="30" Content="Go to Message Box" Click="btnmessagebox_Click"/>
+            <TextBox Name="textbox" VerticalAlignment="Bottom" Width="100" Height="30" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        </Grid>
+        </Grid>
 </Window>
