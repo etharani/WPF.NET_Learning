@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\.NET_WPF\First_WpfApp\First_WpfApp\obj\Debug\
+C:\Users\thara\Documents\GitHub\WPF.NET_Learning\First_WpfApp\First_WpfApp\obj\Debug\
 First_WpfApp
 none
 false
 DEBUG;TRACE
-D:\.NET_WPF\First_WpfApp\First_WpfApp\App.xaml
+C:\Users\thara\Documents\GitHub\WPF.NET_Learning\First_WpfApp\First_WpfApp\App.xaml
 6-656782244
 
-10-109787530
+112103091148
 13-1310406943
 Calculator.xaml;DataBinding.xaml;MainWindow.xaml;Resource.xaml;Style.xaml;Window1.xaml;
 
-False
+True
 
