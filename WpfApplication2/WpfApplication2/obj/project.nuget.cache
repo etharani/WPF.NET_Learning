@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "3biAVn7hszG/A9AeGxkX9C7ysuO9ci29qe2QMlS6RvrhoPTzT1spjS5XHzv9as0nWXgr2VGttEAVjdAXR7SXpQ==",
+  "dgSpecHash": "lDxXdl4YOcfClYGiItad2pE5GYPttWWw+JeFg+XPjK8uTtUrLH+qBnezSVypcQyfeEvKeXkOZXWM2kAWijhFqA==",
   "success": true,
   "projectFilePath": "D:\\.NET_WPF\\WpfApplication2\\WpfApplication2\\WpfApplication2.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\thara\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\thara\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\thara\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\thara\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
   "logs": []
 }
